@@ -11,13 +11,15 @@ package tubespbo;
  */
 public class Orang {
     private String jenisKelamin;
-	private String tanggalLahir;
+    private String nama;
+    private String umur;
 	private String tempatLahir;
 	private String status;
 
-	public Orang (String jenisKelamin,String tanggalLahir,String tempatLahir,String status){
+	public Orang (String jenisKelamin,String nama,String umur,String tempatLahir,String status){
 		this.jenisKelamin = jenisKelamin;
-		this.tanggalLahir = tanggalLahir;
+		this.nama = nama;
+                this.umur = umur;
 		this.tempatLahir = tempatLahir;
 		this.status = status;
 	}
@@ -25,8 +27,8 @@ public class Orang {
 	public void setJenisKelamin(String jenisKelamin){
 		this.jenisKelamin = jenisKelamin;
 	}
-	public void setTanggalLahir(String tanggalLahir){
-		this.tanggalLahir = tanggalLahir;
+	public void setUmur(String umur){
+		this.umur = umur;
 	}
 	public void setTempatLahir(String tempatLahir){
 		this.tempatLahir = tempatLahir;
@@ -34,11 +36,17 @@ public class Orang {
 	public void setStatus(String status){
 		this.status = status;
 	}
+        public void setNama(String nama){
+            this.nama = nama;
+        }
 	public String getJenisKelamin(){
 		return jenisKelamin;
 	}
-	public String getTanggalLahir(){
-		return tanggalLahir;
+        public String getNama(){
+            return nama;
+        }
+	public String getUmur(){
+		return umur;
 	}
 	public String getTempatLahir(){
 		return tempatLahir;

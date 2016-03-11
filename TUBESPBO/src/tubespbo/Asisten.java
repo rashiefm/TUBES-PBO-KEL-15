@@ -37,7 +37,7 @@ public class Asisten {
 		this.id = id;
 	}
 	public void setIndex(int index){
-		this,index = index;
+		this.index = index;
 	}
 	public String getNama(){
 		return nama;
