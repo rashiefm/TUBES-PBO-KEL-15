@@ -1,0 +1,39 @@
+README
+=======================
+
+Aplikasi ini tidak membutuhkan penginstalan. Cukup jalankan aplikasi.
+
+
+Pilihan User
+---------------------------------------------------------------
+
+Terdapat dua pilihan user yaitu 
+-Mahasiswa 
+-Asisten
+
+Asisten
+---------------------------------------------------------------
+
+Pada pilihan user asisten terdapat menu penunjang untuk asisten
+yaitu:
+-Create Asisten
+-Search Asisten
+-Add Tubes
+-Assign Asisten
+-Create Dokumentasi
+-View Tubes
+-Delete Tubes
+-Delete Mahasiswa
+-Navigation
+-Mahasiswa
+
+Mahasiswa
+---------------------------------------------------------------
+
+Pada pilihan user Mahasiswa terdapat menu penunjang untuk mahasiswa
+yaitu :
+-View List Tubes
+-Create Mahasiswa
+-Navigation
+
+Pastikan data yang sudah diisi dan telah disimpan sesuai dengan field yang telah disediakan.
